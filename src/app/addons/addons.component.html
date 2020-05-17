@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="search">
+    <form #search="ngForm" (ngSubmit)="onSubmit(search)" action="post">
+      <input type="text" name="addonName" id="addon-name" placeholder="Enter an addon name" />
+      <input type="text" name="addonFlavor" id="addon-flavor" placeholder="retail or classic" />
+      <a>Search</a>
+    </form>
+  </div>
+  <table align="center">
+    <thead>
+      <th>Name</th>
+      <th>Version</th>
+      <th>Last Updated</th>
+      <th>WoW Flavor</th>
+      <th><a>Install</a></th>
+      <th><a>Update</a></th>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="wrap-text">BigWigs-butmuch larger name than it</td>
+        <td>8.0.0</td>
+        <td>01Jan2020</td>
+        <td>Retail</td>
+        <td>Install This Addon</td>
+        <td>Update This Addon</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

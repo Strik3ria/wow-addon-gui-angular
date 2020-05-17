@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'wow-addon-gui-angular';
+  title = 'wow-addon-gui';
 }

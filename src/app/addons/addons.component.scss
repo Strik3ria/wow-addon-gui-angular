@@ -1,0 +1,44 @@
+table, th, tr, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+.wrap-text {
+    word-wrap: break-word;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+form > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    offset: 2px 0;
+    width: 150px;
+    height: 20px;
+    background-color: #2F4F4F;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+form > a:hover {
+    opacity: 80%;
+}
+
+#addon-name, #addon-flavor {
+    margin: 0 10px;
+    height: 20px;
+    border-radius: 10px;
+}
